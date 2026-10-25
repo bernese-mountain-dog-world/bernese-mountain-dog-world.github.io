@@ -316,6 +316,43 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 .article .fit-tool fieldset{border:1px solid #bac8b2;padding:18px;margin:0 0 20px;min-width:0}
 .article .fit-tool legend{padding:0 8px;font-weight:600;color:#294531}.article .fit-results{padding-left:22px}.article .fit-results li{padding:9px 0}
 </style>
+
+<style id="sidebar-follow-20261025">
+[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
+height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
+min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
+[data-follow-parent]{overflow:visible!important;align-items:start}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
+width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
+[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
+.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
+background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
+.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
+.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
+overflow-wrap:anywhere;line-height:1.45}
+@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
+max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
+.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
+</style>
+
+<!-- social-cards:start -->
+<meta property="og:title" content="Bernese Mountain Dog Teenage Phase: A Practical Guide">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bernese-mountain-dog-world.github.io/bernese-teenage-phase.html">
+<meta property="og:description" content="Navigate the Bernese Mountain Dog teenage phase with a realistic timeline, a training-plan checker, and practical steps for coming back, walking, and chewing.">
+<meta property="og:image" content="https://bernese-mountain-dog-world.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:secure_url" content="https://bernese-mountain-dog-world.github.io/assets/social-share-20261025.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Bernese Mountain Dog standing in an alpine meadow">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bernese Mountain Dog Teenage Phase: A Practical Guide">
+<meta name="twitter:description" content="Navigate the Bernese Mountain Dog teenage phase with a realistic timeline, a training-plan checker, and practical steps for coming back, walking, and chewing.">
+<meta name="twitter:image" content="https://bernese-mountain-dog-world.github.io/assets/social-share-20261025.jpg">
+<meta name="twitter:image:alt" content="Bernese Mountain Dog standing in an alpine meadow">
+<!-- social-cards:end -->
 </head>
 <body>
 <header class="sc-topbar">
@@ -345,7 +382,7 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
     <p class="lead">A realistic timeline and practical resets for coming indoors, walking, and household manners.</p>
   </div>
 </section>
-<div class="layout">
+<div class="layout" data-follow-parent="true">
   <article class="article"><p class="meta">Anna Lindqvist · Bernese Mountain Dog World</p><p>Living through the Bernese Mountain Dog teenage phase can feel like sharing a home with a familiar puppy whose listening skills have suddenly become optional. Coming indoors, walking past another dog, and leaving the laundry alone may all need a simpler lesson again. The useful question is which situation needs rebuilding today, rather than which birthday will fix everything.</p>
 <blockquote><strong>Quick answer:</strong> Prepare for changing behavior during the latter part of puppyhood and keep supporting skills into young adulthood. A Berner's adult appearance does not guarantee adult consistency, and there is no proven breed-wide settling deadline. Reduce distractions, reward the response you want, and judge progress by repeatable everyday behavior.</blockquote>
 <section class="fit-tool" aria-labelledby="teen-tool-title"><h2 id="teen-tool-title">Choose your teenager's next training step</h2><p>This planning tool sorts a practice setup, not your dog's maturity. Select the skill and whether it still works in a quiet room.</p><label for="teen-skill">Skill to rebuild</label><select id="teen-skill"><option value="come">Coming when called</option><option value="walk">Loose-leash walking</option><option value="chew">Leaving household objects alone</option><option value="garden">Coming indoors from the yard</option></select><label for="teen-easy">Does the response work in an easy, quiet setting?</label><select id="teen-easy"><option value="yes">Yes, reliably there</option><option value="sometimes">Only sometimes</option><option value="no">No, the foundation needs teaching</option></select><button type="button" id="teen-plan">Build my practice plan</button><p id="teen-output" role="status" aria-live="polite">Choose your situation, then press the button.</p><noscript><p>Start where the skill already works. If it does not work indoors, teach that foundation before adding outdoor distractions. For chewing, organize the space and reward interaction with an appropriate toy.</p></noscript></section>
@@ -410,7 +447,7 @@ img,iframe,video{max-width:100%}main,article,aside,section{min-width:0}h1,h2,h3,
 <p>The Bernese Mountain Dog teenage phase is easier to navigate when you measure one routine at a time. Rebuild the achievable version, prepare the environment, and record what changes. Your next useful milestone is a willing return or a calmer transition, not an unproven birthday deadline.</p>
 <p class="ai-note"><strong>Written by Anna Lindqvist.</strong> This article was prepared with AI assistance and editorial oversight.</p>
 </article>
-  <aside class="sidebar"><section class="sidebar-panel"><h3>About this site</h3><p>Anna Lindqvist writes about giant-breed care and the short, full lives of Bernese mountain dogs.</p><p><a href="/about.html">More about us</a></p></section>
+  <aside class="sidebar" data-follow-sidebar="existing"><section class="sidebar-panel"><h3>About this site</h3><p>Anna Lindqvist writes about giant-breed care and the short, full lives of Bernese mountain dogs.</p><p><a href="/about.html">More about us</a></p></section>
 
   </aside>
 </div>
